@@ -1,0 +1,10 @@
+
+version: 2
+
+models:
+    - name: tra_customer_orders
+      tests:
+      - elementary.volume_anomalies:
+          time_bucket:
+            period: minute
+            count: 1            

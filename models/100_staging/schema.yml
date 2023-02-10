@@ -1,0 +1,11 @@
+
+version: 2
+
+models:
+    - name: stg_customer
+      columns:
+          - name: C_CUSTKEY
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
